@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url(./hhh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 724px;
+}
+
+nav{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav button{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+nav select{
+    width: 120px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.604);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.container h1, p, div {
+    text-align: center;
+    color: wheat;
+}
+.container button, input{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.container button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.container input{
+    background-color: rgba(0, 0, 0, 0.463);
+    color: white;
+    border-radius: 5px;
+}
+
+.container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding-top: 135px;
+    padding-bottom: 140px;
+}
+    
+.bloor{
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.container h3{
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+ main .kartalar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.karta{
+    color: rgb(215, 215, 215);
+    width: 250px;
+    height: 270px;
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.karta h2{
+    font-size: 28px;
+}
+
+.karta p{
+    font-size: 22;
+    color: grey;
+}
+
+.karta img{
+    margin-top: 20px;
+    align-self: end;
+}
+main h2{
+    margin-top: 20px;
+}
+
+
+body{
+    background-color: black;
+}
+.info h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info{
+    padding: 0 200px;
+}
+
+.dar{
+padding: 0 200px;
+}
+
+.dar .savollar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dar .savol{
+    background-color: rgb(62, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.dar h2 {
+    margin: 40px 0;
+    color: white;
+}
+
+.dar .savol p {
+    font-size: 22px;
+}
+
+
+.savol:hover {
+    transition: 1s;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.contact{
+    padding: 70px 200px;
+    text-align: center;
+}
+
+.contact p {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+
+.contact input{
+    padding: 15px 200px;
+    background-color: black;
+    color: white;
+}
+.contact button{
+    padding: 15px 50px;
+    background-color: red;
+    color: white;
+}
+
+footer{
+    display: flex;
+}
